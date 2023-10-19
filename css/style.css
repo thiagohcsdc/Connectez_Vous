@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+*{
+   margin: 0px;
+   padding: 0px;
+   
+}
+body{
+    background-color:  rgba(238, 238, 238, 0.459);
+}
+
+#main{
+    width: 765px;
+    height: 583px;
+     margin: auto;
+     margin-top: 50px;
+    background-color: white;
+     
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+#left{
+   
+    width: 329px;
+    height: 583px;
+    margin-right: 10px;
+    margin-left: 0px;
+
+  
+}
+
+#conteiner{
+    width: 393px;
+    height: 405px;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    box-shadow: 20px  black;
+}
+#conteiner > h1 {
+   color: #00A551;
+   margin-bottom: 20px;
+
+}
+.card{
+    text-align: justify;
+}
+.textfild{
+    text-align: center;
+}
+.textfild > input{
+    width: 309px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    background-color: #F4F4F4;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.card >h4 {
+    font-size: 12px;
+    color: #474749;
+}
+.card > p {
+    font-size: 12px;
+    color: #7F7E83;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+.card > a {
+    background-color: teal;
+    color: #00A551;
+}
+button{
+    width: 150px;
+    height: 30px;
+    margin: 20px;
+   background-color:#00A551 ;
+   border-radius: 10px ;
+}
